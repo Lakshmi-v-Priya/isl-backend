@@ -3,8 +3,7 @@ from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 # ---- CORE MANAGERS ----
 from app.websocket_manager import ConnectionManager
 from app.sentence_builder import SentenceBuilder
-from app.word_prediction import WordPredictor
-
+from app.word_predictor import WordPredictor
 # ---- VISION & ML ----
 from app.hand_detection import detect_hand
 from app.error_detection import is_blurry, is_low_light
