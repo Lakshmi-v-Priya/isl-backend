@@ -1,2 +1,8 @@
 fastapi
 uvicorn
+numpy
+mediapipe
+opencv-python-headless
+gtts
+scikit-learn
+joblib
