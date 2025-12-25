@@ -25,7 +25,8 @@ predictor = WordPredictor()
 
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):
-    await manager.connect(websocket)
+    await websocket.accept()
+
 
     try:
         while True:
